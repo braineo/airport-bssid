@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Guaka",
+        "repositoryURL": "https://github.com/nsomar/Guaka.git",
+        "state": {
+          "branch": null,
+          "revision": "7d6135f0bcb324977698c40a1985f481899b6dce",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "StringScanner",
+        "repositoryURL": "https://github.com/getGuaka/StringScanner.git",
+        "state": {
+          "branch": null,
+          "revision": "c2cf5c81dade9486386f1cacd917c03e959a3005",
+          "version": "0.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
