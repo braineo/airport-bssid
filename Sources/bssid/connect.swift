@@ -16,15 +16,6 @@ private func configuration(command: Command) {
     // Other configurations
 }
 
-
-func scanNetworks(_ interface: CWInterface) throws -> Set<CWNetwork> {
-    if #available(macOS 10.13, *) {
-        return try interface.scanForNetworks(withName: nil, includeHidden: true)
-    } else {
-        return try interface.scanForNetworks(withName: nil)
-    }
-}
-
 private func execute(flags: Flags, args: [String]) {
     // Execute code here
 
