@@ -17,13 +17,13 @@ private func configuration(command: Command) {
 
 private func execute(flags: Flags, args: [String]) {
     // Execute code here
-    if (args.count != 1) {
-        print("require a SSID name")
-        return
+    let ssidNames = Set(args)
+    let ssidName: String? = args.count == 1 ? args[0] : nil
+    if (args.count > 1) {
+        print("Scanning \(ssidNames.joined(separator: ", "))")
+    } else {
+        print("No SSID specified, scanning all")
     }
-
-    print("scanning \(args[0])")
-    let ssidName = args[0]
 
     let wifiClient = CWWiFiClient()
     guard let interface = wifiClient.interface(), interface.powerOn() else {
@@ -31,12 +31,14 @@ private func execute(flags: Flags, args: [String]) {
         return
     }
 
-    guard let networks = try? interface.scanForNetworks(withName: ssidName) else {
-        print("Failed at scanning \(ssidName)")
+    guard let networks = try? scanNetworks(interface, name: ssidName) else {
+        print("Failed at scanning \(ssidName ?? "")")
         return
     }
-
     for network in networks {
+        if ssidNames.count > 0 && !ssidNames.contains(network.ssid ?? "") {
+            continue
+        }
         print(String(format: "ssid: %@, bssid: %@, channel: %d", network.ssid ?? "",
                 network.bssid ?? "", network.wlanChannel?.channelNumber ?? -1))
     }
