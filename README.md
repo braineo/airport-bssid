@@ -10,14 +10,17 @@ this `bssid` provide a simple way to list BSSID and connect to one
 
 ``` shell
 # list BSSID given a SSID
-bssid scan <ssid>
+
+bssid scan # this will list all visible BSSID
+
+bssid scan <ssid1> <ssid2> # only show result of <ssid1> and <ssid2>
 
 
 # connect to BSSID, will prompt for password
 bssid connect <bssid>
 ```
 
-# Build
+## Build
 
 ``` shell
 swift build
