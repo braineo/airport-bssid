@@ -35,11 +35,9 @@ private func execute(flags: Flags, args: [String]) {
         print("Failed at scanning \(ssidName ?? "")")
         return
     }
-    for network in networks {
-        if ssidNames.count > 0 && !ssidNames.contains(network.ssid ?? "") {
-            continue
-        }
-        print(String(format: "ssid: %@, bssid: %@, channel: %d", network.ssid ?? "",
-                network.bssid ?? "", network.wlanChannel?.channelNumber ?? -1))
+
+    for network in networks.filter({ ssidNames.count > 0 ? ssidNames.contains($0.ssid ?? "") : true }).sorted(by: { $0.rssiValue > $1.rssiValue }) {
+        print(String(format: "ssid: %@, bssid: %@, channel: %d, dBm %d", network.ssid ?? "",
+                network.bssid ?? "", network.wlanChannel?.channelNumber ?? -1, network.rssiValue))
     }
 }
