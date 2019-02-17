@@ -46,7 +46,7 @@ private func execute(flags: Flags, args: [String]) {
     for network in networks {
         if network.bssid ?? "" == bssidName {
             print("Input WiFi password")
-            let password = readLine()
+            let password = String(cString: getpass(""))
             do {
                 try interface.associate(to: network, password: password)
             } catch {
