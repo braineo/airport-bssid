@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2FA03A22194E2B006DE413 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2FA03922194E2B006DE413 /* utils.swift */; };
 		OBJ_101 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Package.swift */; };
 		OBJ_106 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* CharacterSet.swift */; };
 		OBJ_107 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Regex.swift */; };
@@ -74,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C2FA03922194E2B006DE413 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		"Guaka::Guaka::Product" /* Guaka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Guaka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_11 /* root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = root.swift; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 		OBJ_8 /* bssid */ = {
 			isa = PBXGroup;
 			children = (
+				7C2FA03922194E2B006DE413 /* utils.swift */,
 				OBJ_9 /* connect.swift */,
 				OBJ_10 /* main.swift */,
 				OBJ_11 /* root.swift */,
@@ -523,6 +526,7 @@
 				OBJ_75 /* FlagSet.swift in Sources */,
 				OBJ_76 /* Flags.swift in Sources */,
 				OBJ_77 /* CommandHelp.swift in Sources */,
+				7C2FA03A22194E2B006DE413 /* utils.swift in Sources */,
 				OBJ_78 /* DefaultHelpGenerator.swift in Sources */,
 				OBJ_79 /* FlagHelp.swift in Sources */,
 				OBJ_80 /* FlagHelpGeneratorUtils.swift in Sources */,
