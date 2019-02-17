@@ -39,5 +39,4 @@ private func execute(flags: Flags, args: [String]) {
         print(String(format: "ssid: %@, bssid: %@, channel: %d", network.ssid ?? "",
                 network.bssid ?? "", network.wlanChannel.channelNumber))
     }
-
 }
