@@ -13,6 +13,8 @@ private func configuration(command: Command) {
         // Add your flags here
     ])
     // Other configurations
+    command.longMessage = "Scan WiFi APs. If SSIDs are given, only show result of those SSIDs"
+    command.example = "bssid scan ssid1 ssid2"
 }
 
 private func execute(flags: Flags, args: [String]) {

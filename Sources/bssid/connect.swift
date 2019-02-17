@@ -12,8 +12,9 @@ private func configuration(command: Command) {
     command.add(flags: [
         // Add your flags here
     ])
-
     // Other configurations
+    command.shortMessage = "connect to a WiFi network with given BSSID"
+    command.example = "bssid connect 12:ab:cd:34:ef:56"
 }
 
 private func execute(flags: Flags, args: [String]) {
