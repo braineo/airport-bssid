@@ -25,7 +25,8 @@ private func execute(flags: Flags, args: [String]) {
     print("scanning \(args[0])")
     let ssidName = args[0]
 
-    guard let wifiClient = CWWiFiClient(), let interface = wifiClient.interface(), interface.powerOn() else {
+    let wifiClient = CWWiFiClient()
+    guard let interface = wifiClient.interface(), interface.powerOn() else {
         print("Cannot create interface or interface is not turned on")
         return
     }
@@ -37,6 +38,6 @@ private func execute(flags: Flags, args: [String]) {
 
     for network in networks {
         print(String(format: "ssid: %@, bssid: %@, channel: %d", network.ssid ?? "",
-                network.bssid ?? "", network.wlanChannel.channelNumber))
+                network.bssid ?? "", network.wlanChannel?.channelNumber ?? -1))
     }
 }

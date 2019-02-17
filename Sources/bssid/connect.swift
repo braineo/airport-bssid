@@ -34,7 +34,8 @@ private func execute(flags: Flags, args: [String]) {
     }
     let bssidName = args[0]
 
-    guard let wifiClient = CWWiFiClient(), let interface = wifiClient.interface(), interface.powerOn() else {
+    let wifiClient = CWWiFiClient()
+    guard let interface = wifiClient.interface(), interface.powerOn() else {
         print("Cannot create interface or interface is not turned on")
         return
     }
