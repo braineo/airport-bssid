@@ -16,5 +16,5 @@ private func configuration(command: Command) {
 
 private func execute(flags: Flags, args: [String]) {
     // Execute code here
-    print("bssid called")
+    print(rootCommand.helpMessage)
 }
