@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C2FA03A22194E2B006DE413 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2FA03922194E2B006DE413 /* utils.swift */; };
-		OBJ_101 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Package.swift */; };
-		OBJ_106 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* CharacterSet.swift */; };
-		OBJ_107 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Regex.swift */; };
-		OBJ_108 /* ScannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* ScannerResult.swift */; };
-		OBJ_109 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* StringExtension.swift */; };
-		OBJ_110 /* StringScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* StringScanner.swift */; };
-		OBJ_117 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Package.swift */; };
-		OBJ_123 /* connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* connect.swift */; };
-		OBJ_124 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* main.swift */; };
-		OBJ_125 /* root.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* root.swift */; };
-		OBJ_126 /* scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* scan.swift */; };
-		OBJ_127 /* setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* setup.swift */; };
-		OBJ_129 /* Guaka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Guaka::Guaka::Product" /* Guaka.framework */; };
-		OBJ_130 /* StringScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "StringScanner::StringScanner::Product" /* StringScanner.framework */; };
-		OBJ_138 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_68 /* Command+Execution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Command+Execution.swift */; };
-		OBJ_69 /* Command+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Command+Utilities.swift */; };
-		OBJ_70 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Command.swift */; };
-		OBJ_71 /* CommandTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* CommandTypes.swift */; };
-		OBJ_72 /* CommandExecution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* CommandExecution.swift */; };
-		OBJ_73 /* Flag+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Flag+Utilities.swift */; };
-		OBJ_74 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Flag.swift */; };
-		OBJ_75 /* FlagSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* FlagSet.swift */; };
-		OBJ_76 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Flags.swift */; };
-		OBJ_77 /* CommandHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* CommandHelp.swift */; };
-		OBJ_78 /* DefaultHelpGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* DefaultHelpGenerator.swift */; };
-		OBJ_79 /* FlagHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* FlagHelp.swift */; };
-		OBJ_80 /* FlagHelpGeneratorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* FlagHelpGeneratorUtils.swift */; };
-		OBJ_81 /* HelpGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* HelpGenerator.swift */; };
-		OBJ_82 /* HelpGeneratorDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* HelpGeneratorDefaults.swift */; };
-		OBJ_83 /* HelpGeneratorErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* HelpGeneratorErrors.swift */; };
-		OBJ_84 /* GuakaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* GuakaConfig.swift */; };
-		OBJ_85 /* Levenshtein.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Levenshtein.swift */; };
-		OBJ_86 /* ArgTokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* ArgTokenType.swift */; };
-		OBJ_87 /* Command+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Command+Parsing.swift */; };
-		OBJ_88 /* FlagSet+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* FlagSet+Parsing.swift */; };
-		OBJ_89 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Errors.swift */; };
-		OBJ_90 /* FlagValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* FlagValue.swift */; };
-		OBJ_91 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Result.swift */; };
-		OBJ_93 /* StringScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "StringScanner::StringScanner::Product" /* StringScanner.framework */; };
+		OBJ_105 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Package.swift */; };
+		OBJ_110 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* CharacterSet.swift */; };
+		OBJ_111 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Regex.swift */; };
+		OBJ_112 /* ScannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* ScannerResult.swift */; };
+		OBJ_113 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* StringExtension.swift */; };
+		OBJ_114 /* StringScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* StringScanner.swift */; };
+		OBJ_121 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Package.swift */; };
+		OBJ_127 /* connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* connect.swift */; };
+		OBJ_128 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* main.swift */; };
+		OBJ_129 /* root.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* root.swift */; };
+		OBJ_130 /* scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* scan.swift */; };
+		OBJ_131 /* setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* setup.swift */; };
+		OBJ_132 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* utils.swift */; };
+		OBJ_134 /* Guaka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Guaka::Guaka::Product" /* Guaka.framework */; };
+		OBJ_135 /* StringScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "StringScanner::StringScanner::Product" /* StringScanner.framework */; };
+		OBJ_143 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_72 /* Command+Execution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Command+Execution.swift */; };
+		OBJ_73 /* Command+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Command+Utilities.swift */; };
+		OBJ_74 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Command.swift */; };
+		OBJ_75 /* CommandTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* CommandTypes.swift */; };
+		OBJ_76 /* CommandExecution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* CommandExecution.swift */; };
+		OBJ_77 /* Flag+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Flag+Utilities.swift */; };
+		OBJ_78 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Flag.swift */; };
+		OBJ_79 /* FlagSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* FlagSet.swift */; };
+		OBJ_80 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Flags.swift */; };
+		OBJ_81 /* CommandHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* CommandHelp.swift */; };
+		OBJ_82 /* DefaultHelpGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* DefaultHelpGenerator.swift */; };
+		OBJ_83 /* FlagHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* FlagHelp.swift */; };
+		OBJ_84 /* FlagHelpGeneratorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* FlagHelpGeneratorUtils.swift */; };
+		OBJ_85 /* HelpGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* HelpGenerator.swift */; };
+		OBJ_86 /* HelpGeneratorDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* HelpGeneratorDefaults.swift */; };
+		OBJ_87 /* HelpGeneratorErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* HelpGeneratorErrors.swift */; };
+		OBJ_88 /* GuakaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* GuakaConfig.swift */; };
+		OBJ_89 /* Levenshtein.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Levenshtein.swift */; };
+		OBJ_90 /* ArgTokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* ArgTokenType.swift */; };
+		OBJ_91 /* Command+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Command+Parsing.swift */; };
+		OBJ_92 /* FlagSet+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* FlagSet+Parsing.swift */; };
+		OBJ_93 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Errors.swift */; };
+		OBJ_94 /* FlagValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* FlagValue.swift */; };
+		OBJ_95 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Result.swift */; };
+		OBJ_97 /* StringScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "StringScanner::StringScanner::Product" /* StringScanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7CF9A03022190E0D0028886D /* PBXContainerItemProxy */ = {
+		7C9D6ABA2379A9240039F2B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Guaka::Guaka";
 			remoteInfo = Guaka;
 		};
-		7CF9A03122190E0D0028886D /* PBXContainerItemProxy */ = {
+		7C9D6ABB2379A9240039F2B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "StringScanner::StringScanner";
 			remoteInfo = StringScanner;
 		};
-		7CF9A03222190E0D0028886D /* PBXContainerItemProxy */ = {
+		7C9D6ABC2379A9240039F2B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -75,13 +75,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C2FA03922194E2B006DE413 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
-		"Guaka::Guaka::Product" /* Guaka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Guaka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Guaka::Guaka::Product" /* Guaka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Guaka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_11 /* root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = root.swift; sourceTree = "<group>"; };
 		OBJ_12 /* scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scan.swift; sourceTree = "<group>"; };
 		OBJ_13 /* setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setup.swift; sourceTree = "<group>"; };
-		OBJ_15 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = SOURCE_ROOT; };
+		OBJ_14 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		OBJ_20 /* Command+Execution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command+Execution.swift"; sourceTree = "<group>"; };
 		OBJ_21 /* Command+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command+Utilities.swift"; sourceTree = "<group>"; };
 		OBJ_22 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
@@ -106,48 +105,52 @@
 		OBJ_47 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		OBJ_48 /* FlagValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagValue.swift; sourceTree = "<group>"; };
 		OBJ_49 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		OBJ_50 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/braineo/Develop/swift/bssid/.build/checkouts/Guaka.git-3979423169016214543/Package.swift"; sourceTree = "<group>"; };
+		OBJ_50 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/braineo/Develop/swift/bssid/.build/checkouts/Guaka/Package.swift; sourceTree = "<group>"; };
 		OBJ_53 /* CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSet.swift; sourceTree = "<group>"; };
 		OBJ_54 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		OBJ_55 /* ScannerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerResult.swift; sourceTree = "<group>"; };
 		OBJ_56 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		OBJ_57 /* StringScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringScanner.swift; sourceTree = "<group>"; };
-		OBJ_58 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/braineo/Develop/swift/bssid/.build/checkouts/StringScanner.git--7132233104647415168/Package.swift"; sourceTree = "<group>"; };
+		OBJ_58 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/braineo/Develop/swift/bssid/.build/checkouts/StringScanner/Package.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_63 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = SOURCE_ROOT; };
+		OBJ_64 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_65 /* bssid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bssid.entitlements; sourceTree = "<group>"; };
+		OBJ_66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_9 /* connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connect.swift; sourceTree = "<group>"; };
-		"StringScanner::StringScanner::Product" /* StringScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StringScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"StringScanner::StringScanner::Product" /* StringScanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StringScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"bssid::bssid::Product" /* bssid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = bssid; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_111 /* Frameworks */ = {
+		OBJ_115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_128 /* Frameworks */ = {
+		OBJ_133 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_129 /* Guaka.framework in Frameworks */,
-				OBJ_130 /* StringScanner.framework in Frameworks */,
+				OBJ_134 /* Guaka.framework in Frameworks */,
+				OBJ_135 /* StringScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_92 /* Frameworks */ = {
+		OBJ_96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_93 /* StringScanner.framework in Frameworks */,
+				OBJ_97 /* StringScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_14 /* Tests */ = {
+		OBJ_15 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -184,7 +187,7 @@
 				OBJ_46 /* Types */,
 			);
 			name = Guaka;
-			path = ".build/checkouts/Guaka.git-3979423169016214543/Sources/Guaka";
+			path = .build/checkouts/Guaka/Sources/Guaka;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_19 /* Command */ = {
@@ -260,16 +263,20 @@
 			path = Types;
 			sourceTree = "<group>";
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_14 /* Tests */,
-				OBJ_15 /* build */,
+				OBJ_15 /* Tests */,
 				OBJ_16 /* Dependencies */,
 				OBJ_59 /* Products */,
+				OBJ_63 /* build */,
+				OBJ_64 /* LICENSE */,
+				OBJ_65 /* bssid.entitlements */,
+				OBJ_66 /* README.md */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_51 /* StringScanner 0.3.0 */ = {
@@ -291,15 +298,15 @@
 				OBJ_57 /* StringScanner.swift */,
 			);
 			name = StringScanner;
-			path = ".build/checkouts/StringScanner.git--7132233104647415168/Sources/StringScanner";
+			path = .build/checkouts/StringScanner/Sources/StringScanner;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_59 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"Guaka::Guaka::Product" /* Guaka.framework */,
 				"bssid::bssid::Product" /* bssid */,
 				"StringScanner::StringScanner::Product" /* StringScanner.framework */,
+				"Guaka::Guaka::Product" /* Guaka.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -315,12 +322,12 @@
 		OBJ_8 /* bssid */ = {
 			isa = PBXGroup;
 			children = (
-				7C2FA03922194E2B006DE413 /* utils.swift */,
 				OBJ_9 /* connect.swift */,
 				OBJ_10 /* main.swift */,
 				OBJ_11 /* root.swift */,
 				OBJ_12 /* scan.swift */,
 				OBJ_13 /* setup.swift */,
+				OBJ_14 /* utils.swift */,
 			);
 			name = bssid;
 			path = Sources/bssid;
@@ -331,15 +338,15 @@
 /* Begin PBXNativeTarget section */
 		"Guaka::Guaka" /* Guaka */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_64 /* Build configuration list for PBXNativeTarget "Guaka" */;
+			buildConfigurationList = OBJ_68 /* Build configuration list for PBXNativeTarget "Guaka" */;
 			buildPhases = (
-				OBJ_67 /* Sources */,
-				OBJ_92 /* Frameworks */,
+				OBJ_71 /* Sources */,
+				OBJ_96 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_94 /* PBXTargetDependency */,
+				OBJ_98 /* PBXTargetDependency */,
 			);
 			name = Guaka;
 			productName = Guaka;
@@ -348,9 +355,9 @@
 		};
 		"Guaka::SwiftPMPackageDescription" /* GuakaPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_97 /* Build configuration list for PBXNativeTarget "GuakaPackageDescription" */;
+			buildConfigurationList = OBJ_101 /* Build configuration list for PBXNativeTarget "GuakaPackageDescription" */;
 			buildPhases = (
-				OBJ_100 /* Sources */,
+				OBJ_104 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -362,10 +369,10 @@
 		};
 		"StringScanner::StringScanner" /* StringScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_102 /* Build configuration list for PBXNativeTarget "StringScanner" */;
+			buildConfigurationList = OBJ_106 /* Build configuration list for PBXNativeTarget "StringScanner" */;
 			buildPhases = (
-				OBJ_105 /* Sources */,
-				OBJ_111 /* Frameworks */,
+				OBJ_109 /* Sources */,
+				OBJ_115 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -378,9 +385,9 @@
 		};
 		"StringScanner::SwiftPMPackageDescription" /* StringScannerPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_113 /* Build configuration list for PBXNativeTarget "StringScannerPackageDescription" */;
+			buildConfigurationList = OBJ_117 /* Build configuration list for PBXNativeTarget "StringScannerPackageDescription" */;
 			buildPhases = (
-				OBJ_116 /* Sources */,
+				OBJ_120 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -392,9 +399,9 @@
 		};
 		"bssid::SwiftPMPackageDescription" /* bssidPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_134 /* Build configuration list for PBXNativeTarget "bssidPackageDescription" */;
+			buildConfigurationList = OBJ_139 /* Build configuration list for PBXNativeTarget "bssidPackageDescription" */;
 			buildPhases = (
-				OBJ_137 /* Sources */,
+				OBJ_142 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -406,16 +413,16 @@
 		};
 		"bssid::bssid" /* bssid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_119 /* Build configuration list for PBXNativeTarget "bssid" */;
+			buildConfigurationList = OBJ_123 /* Build configuration list for PBXNativeTarget "bssid" */;
 			buildPhases = (
-				OBJ_122 /* Sources */,
-				OBJ_128 /* Frameworks */,
+				OBJ_126 /* Sources */,
+				OBJ_133 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_131 /* PBXTargetDependency */,
-				OBJ_132 /* PBXTargetDependency */,
+				OBJ_136 /* PBXTargetDependency */,
+				OBJ_137 /* PBXTargetDependency */,
 			);
 			name = bssid;
 			productName = bssid;
@@ -428,27 +435,17 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 9999;
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-					"Guaka::Guaka" = {
-						LastSwiftMigration = 1010;
-					};
-					"StringScanner::StringScanner" = {
-						LastSwiftMigration = 1010;
-					};
-					"bssid::bssid" = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "bssid" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
+			mainGroup = OBJ_5 /*  */;
 			productRefGroup = OBJ_59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -464,108 +461,126 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_100 /* Sources */ = {
+		OBJ_104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_101 /* Package.swift in Sources */,
+				OBJ_105 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_105 /* Sources */ = {
+		OBJ_109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_106 /* CharacterSet.swift in Sources */,
-				OBJ_107 /* Regex.swift in Sources */,
-				OBJ_108 /* ScannerResult.swift in Sources */,
-				OBJ_109 /* StringExtension.swift in Sources */,
-				OBJ_110 /* StringScanner.swift in Sources */,
+				OBJ_110 /* CharacterSet.swift in Sources */,
+				OBJ_111 /* Regex.swift in Sources */,
+				OBJ_112 /* ScannerResult.swift in Sources */,
+				OBJ_113 /* StringExtension.swift in Sources */,
+				OBJ_114 /* StringScanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_116 /* Sources */ = {
+		OBJ_120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_117 /* Package.swift in Sources */,
+				OBJ_121 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_122 /* Sources */ = {
+		OBJ_126 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_123 /* connect.swift in Sources */,
-				OBJ_124 /* main.swift in Sources */,
-				OBJ_125 /* root.swift in Sources */,
-				OBJ_126 /* scan.swift in Sources */,
-				OBJ_127 /* setup.swift in Sources */,
+				OBJ_127 /* connect.swift in Sources */,
+				OBJ_128 /* main.swift in Sources */,
+				OBJ_129 /* root.swift in Sources */,
+				OBJ_130 /* scan.swift in Sources */,
+				OBJ_131 /* setup.swift in Sources */,
+				OBJ_132 /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_137 /* Sources */ = {
+		OBJ_142 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_138 /* Package.swift in Sources */,
+				OBJ_143 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_67 /* Sources */ = {
+		OBJ_71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_68 /* Command+Execution.swift in Sources */,
-				OBJ_69 /* Command+Utilities.swift in Sources */,
-				OBJ_70 /* Command.swift in Sources */,
-				OBJ_71 /* CommandTypes.swift in Sources */,
-				OBJ_72 /* CommandExecution.swift in Sources */,
-				OBJ_73 /* Flag+Utilities.swift in Sources */,
-				OBJ_74 /* Flag.swift in Sources */,
-				OBJ_75 /* FlagSet.swift in Sources */,
-				OBJ_76 /* Flags.swift in Sources */,
-				OBJ_77 /* CommandHelp.swift in Sources */,
-				7C2FA03A22194E2B006DE413 /* utils.swift in Sources */,
-				OBJ_78 /* DefaultHelpGenerator.swift in Sources */,
-				OBJ_79 /* FlagHelp.swift in Sources */,
-				OBJ_80 /* FlagHelpGeneratorUtils.swift in Sources */,
-				OBJ_81 /* HelpGenerator.swift in Sources */,
-				OBJ_82 /* HelpGeneratorDefaults.swift in Sources */,
-				OBJ_83 /* HelpGeneratorErrors.swift in Sources */,
-				OBJ_84 /* GuakaConfig.swift in Sources */,
-				OBJ_85 /* Levenshtein.swift in Sources */,
-				OBJ_86 /* ArgTokenType.swift in Sources */,
-				OBJ_87 /* Command+Parsing.swift in Sources */,
-				OBJ_88 /* FlagSet+Parsing.swift in Sources */,
-				OBJ_89 /* Errors.swift in Sources */,
-				OBJ_90 /* FlagValue.swift in Sources */,
-				OBJ_91 /* Result.swift in Sources */,
+				OBJ_72 /* Command+Execution.swift in Sources */,
+				OBJ_73 /* Command+Utilities.swift in Sources */,
+				OBJ_74 /* Command.swift in Sources */,
+				OBJ_75 /* CommandTypes.swift in Sources */,
+				OBJ_76 /* CommandExecution.swift in Sources */,
+				OBJ_77 /* Flag+Utilities.swift in Sources */,
+				OBJ_78 /* Flag.swift in Sources */,
+				OBJ_79 /* FlagSet.swift in Sources */,
+				OBJ_80 /* Flags.swift in Sources */,
+				OBJ_81 /* CommandHelp.swift in Sources */,
+				OBJ_82 /* DefaultHelpGenerator.swift in Sources */,
+				OBJ_83 /* FlagHelp.swift in Sources */,
+				OBJ_84 /* FlagHelpGeneratorUtils.swift in Sources */,
+				OBJ_85 /* HelpGenerator.swift in Sources */,
+				OBJ_86 /* HelpGeneratorDefaults.swift in Sources */,
+				OBJ_87 /* HelpGeneratorErrors.swift in Sources */,
+				OBJ_88 /* GuakaConfig.swift in Sources */,
+				OBJ_89 /* Levenshtein.swift in Sources */,
+				OBJ_90 /* ArgTokenType.swift in Sources */,
+				OBJ_91 /* Command+Parsing.swift in Sources */,
+				OBJ_92 /* FlagSet+Parsing.swift in Sources */,
+				OBJ_93 /* Errors.swift in Sources */,
+				OBJ_94 /* FlagValue.swift in Sources */,
+				OBJ_95 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_131 /* PBXTargetDependency */ = {
+		OBJ_136 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Guaka::Guaka" /* Guaka */;
-			targetProxy = 7CF9A03022190E0D0028886D /* PBXContainerItemProxy */;
+			targetProxy = 7C9D6ABA2379A9240039F2B8 /* PBXContainerItemProxy */;
 		};
-		OBJ_132 /* PBXTargetDependency */ = {
+		OBJ_137 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "StringScanner::StringScanner" /* StringScanner */;
-			targetProxy = 7CF9A03222190E0D0028886D /* PBXContainerItemProxy */;
+			targetProxy = 7C9D6ABC2379A9240039F2B8 /* PBXContainerItemProxy */;
 		};
-		OBJ_94 /* PBXTargetDependency */ = {
+		OBJ_98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "StringScanner::StringScanner" /* StringScanner */;
-			targetProxy = 7CF9A03122190E0D0028886D /* PBXContainerItemProxy */;
+			targetProxy = 7C9D6ABB2379A9240039F2B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_103 /* Debug */ = {
+		OBJ_102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_107 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -584,12 +599,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = StringScanner;
 			};
 			name = Debug;
 		};
-		OBJ_104 /* Release */ = {
+		OBJ_108 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -608,32 +623,33 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = StringScanner;
 			};
 			name = Release;
 		};
-		OBJ_114 /* Debug */ = {
+		OBJ_118 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		OBJ_115 /* Release */ = {
+		OBJ_119 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
-		OBJ_120 /* Debug */ = {
+		OBJ_124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = bssid.entitlements;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -652,9 +668,10 @@
 			};
 			name = Debug;
 		};
-		OBJ_121 /* Release */ = {
+		OBJ_125 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = bssid.entitlements;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -673,21 +690,21 @@
 			};
 			name = Release;
 		};
-		OBJ_135 /* Debug */ = {
+		OBJ_140 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		OBJ_136 /* Release */ = {
+		OBJ_141 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -702,16 +719,17 @@
 				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = "-DXcode";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
 			};
@@ -726,18 +744,22 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_SWIFT_FLAGS = "-DXcode";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		OBJ_65 /* Debug */ = {
+		OBJ_69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -756,12 +778,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Guaka;
 			};
 			name = Debug;
 		};
-		OBJ_66 /* Release */ = {
+		OBJ_70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -780,64 +802,55 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Guaka;
-			};
-			name = Release;
-		};
-		OBJ_98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		OBJ_99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_102 /* Build configuration list for PBXNativeTarget "StringScanner" */ = {
+		OBJ_101 /* Build configuration list for PBXNativeTarget "GuakaPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_103 /* Debug */,
-				OBJ_104 /* Release */,
+				OBJ_102 /* Debug */,
+				OBJ_103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_113 /* Build configuration list for PBXNativeTarget "StringScannerPackageDescription" */ = {
+		OBJ_106 /* Build configuration list for PBXNativeTarget "StringScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_114 /* Debug */,
-				OBJ_115 /* Release */,
+				OBJ_107 /* Debug */,
+				OBJ_108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_119 /* Build configuration list for PBXNativeTarget "bssid" */ = {
+		OBJ_117 /* Build configuration list for PBXNativeTarget "StringScannerPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_120 /* Debug */,
-				OBJ_121 /* Release */,
+				OBJ_118 /* Debug */,
+				OBJ_119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_134 /* Build configuration list for PBXNativeTarget "bssidPackageDescription" */ = {
+		OBJ_123 /* Build configuration list for PBXNativeTarget "bssid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_135 /* Debug */,
-				OBJ_136 /* Release */,
+				OBJ_124 /* Debug */,
+				OBJ_125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_139 /* Build configuration list for PBXNativeTarget "bssidPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_140 /* Debug */,
+				OBJ_141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -851,20 +864,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_64 /* Build configuration list for PBXNativeTarget "Guaka" */ = {
+		OBJ_68 /* Build configuration list for PBXNativeTarget "Guaka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_65 /* Debug */,
-				OBJ_66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_97 /* Build configuration list for PBXNativeTarget "GuakaPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_98 /* Debug */,
-				OBJ_99 /* Release */,
+				OBJ_69 /* Debug */,
+				OBJ_70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
