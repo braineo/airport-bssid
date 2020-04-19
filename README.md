@@ -32,10 +32,19 @@ bssid scan <ssid1> <ssid2> # only show result of <ssid1> and <ssid2>
 
 # connect to BSSID, will prompt for password
 bssid connect <bssid>
+
+# connect to SSID, will prompt for password
+bssid connect-ssid <ssid> <channel>
 ```
 
 ## Build
 
 ``` shell
 swift build
+```
+
+## Add command to PATH
+
+```
+ln -fs PATH_TO_LOCAL_REPOSITORY/.build/x86_64-apple-macosx/debug/bssid /usr/local/bin/
 ```
