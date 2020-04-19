@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06EED831244C87DF004E9C2B /* connect-ssid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EED82F244C87CF004E9C2B /* connect-ssid.swift */; };
 		OBJ_105 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Package.swift */; };
 		OBJ_110 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* CharacterSet.swift */; };
 		OBJ_111 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Regex.swift */; };
@@ -75,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06EED82F244C87CF004E9C2B /* connect-ssid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "connect-ssid.swift"; sourceTree = "<group>"; };
 		"Guaka::Guaka::Product" /* Guaka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Guaka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_11 /* root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = root.swift; sourceTree = "<group>"; };
@@ -263,7 +265,7 @@
 			path = Types;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -276,7 +278,6 @@
 				OBJ_65 /* bssid.entitlements */,
 				OBJ_66 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_51 /* StringScanner 0.3.0 */ = {
@@ -322,6 +323,7 @@
 		OBJ_8 /* bssid */ = {
 			isa = PBXGroup;
 			children = (
+				06EED82F244C87CF004E9C2B /* connect-ssid.swift */,
 				OBJ_9 /* connect.swift */,
 				OBJ_10 /* main.swift */,
 				OBJ_11 /* root.swift */,
@@ -445,7 +447,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -499,6 +501,7 @@
 				OBJ_130 /* scan.swift in Sources */,
 				OBJ_131 /* setup.swift in Sources */,
 				OBJ_132 /* utils.swift in Sources */,
+				06EED831244C87DF004E9C2B /* connect-ssid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
