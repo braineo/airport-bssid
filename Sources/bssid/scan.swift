@@ -21,7 +21,7 @@ private func execute(flags: Flags, args: [String]) {
     // Execute code here
     let ssidNames = Set(args)
     let ssidName: String? = args.count == 1 ? args[0] : nil
-    if (args.count > 1) {
+    if (args.count > 0) {
         print("Scanning \(ssidNames.joined(separator: ", "))")
     } else {
         print("No SSID specified, scanning all")
