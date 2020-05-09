@@ -8,10 +8,14 @@ this `bssid` provide a simple way to list BSSID and connect to one
 
 ## For people using macOS 10.15 or above
 
-Start from 10.15, Apple seemed to change the policy on getting bssid that you need a developer account to sign the executable to get BSSID
+Start from 10.15, Apple seemed to change the policy on getting bssid that you need a developer account to sign the executable to get BSSID, otherwise you only get empty return.
+But I encountered a problem for command line application the entitlement is not properly respected.
 
 ``` shell
+# If you have a developer account
 codesign --entitlements bssid.entitlements -s 'Your identity' ./.build/x86_64-apple-macosx/debug/bssid
+# Seems you can also sign and run locally
+codesign --force --sign - --entitlements bssid.entitlements --timestamp=none ./.build/x86_64-apple-macosx/debug/bssid
 ```
 
 Theoretically this can fix the problem but I cannot test as I don't have a developer account :(
