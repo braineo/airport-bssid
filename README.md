@@ -37,6 +37,8 @@ bssid scan <ssid1> <ssid2> # only show result of <ssid1> and <ssid2>
 
 # connect to BSSID, will prompt for password
 bssid connect <bssid>
+
+# For 10.15 or above users, get over by specifying SSID and channel number instead
 bssid connect --ssid <ssid>
 bssid connect --ssid <ssid> --channel <channelNumber>
 ```
