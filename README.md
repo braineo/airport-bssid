@@ -11,6 +11,11 @@ this `bssid` provide a simple way to list BSSID and connect to one
 Start from 10.15, Apple seemed to change the policy on getting bssid that you need a developer account to sign the executable to get BSSID, otherwise you only get empty return.
 But I encountered a problem for command line application the entitlement is not properly respected.
 
+Some users suggested requiring location information in order to get location but some reported it did not work
+
+https://developer.apple.com/forums/thread/124189
+
+
 ``` shell
 # If you have a developer account
 codesign --entitlements bssid.entitlements -s 'Your identity' ./.build/x86_64-apple-macosx/debug/bssid
@@ -32,9 +37,8 @@ bssid scan <ssid1> <ssid2> # only show result of <ssid1> and <ssid2>
 
 # connect to BSSID, will prompt for password
 bssid connect <bssid>
-
-# connect to SSID, will prompt for password
-bssid connect-ssid <ssid> <channel>
+bssid connect --ssid <ssid>
+bssid connect --ssid <ssid> --channel <channelNumber>
 ```
 
 ## Build
