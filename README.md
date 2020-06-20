@@ -44,11 +44,13 @@ bssid connect --ssid <ssid> --channel <channelNumber>
 ## Build
 
 ``` shell
+# Building
 swift build
-```
+# or
+make
 
-## Add command to PATH
-
-```
+# Install
+make install
+# or symlink to wherever you like
 ln -fs PATH_TO_LOCAL_REPOSITORY/.build/x86_64-apple-macosx/debug/bssid /usr/local/bin/
 ```
