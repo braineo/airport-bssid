@@ -25,7 +25,7 @@ private func execute(flags: Flags, args: [String]) {
     let requestBSSID = args.count > 0 ? args[0] : ""
     let requestChannel = flags.getInt(name: "channel") ?? -1
 
-    if (requestSSID.isEmpty && requestSSID.isEmpty) {
+    if (requestBSSID.isEmpty && requestSSID.isEmpty) {
         print("require a BSSID or pass a SSID by --ssid")
         return
     }
