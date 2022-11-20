@@ -36,6 +36,8 @@ swift build
 make install
 # or symlink to wherever you like
 ln -fs PATH_TO_LOCAL_REPOSITORY/.build/x86_64-apple-macosx/debug/bssid /usr/local/bin/
+# for m1 user would be
+ln -fs $(PWD)/.build/arm64-apple-macosx/debug/bssid /usr/local/bin/
 ```
 
 ## For people using macOS 10.15 or above
