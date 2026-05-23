@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>dev.braineo.bssid</string>
+    <key>CFBundleName</key>
+    <string>bssid</string>
+    <key>CFBundleExecutable</key>
+    <string>bssid</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>NSLocationUsageDescription</key>
+    <string>bssid uses your location to read nearby Wi-Fi access point details (SSID, BSSID, channel, RSSI). macOS gates this data behind Location Services.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>bssid uses your location to read nearby Wi-Fi access point details (SSID, BSSID, channel, RSSI). macOS gates this data behind Location Services.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>bssid uses your location to read nearby Wi-Fi access point details (SSID, BSSID, channel, RSSI). macOS gates this data behind Location Services.</string>
+</dict>
+</plist>
